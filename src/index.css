@@ -1,0 +1,100 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #FFF7ED; */
+    font-family: "Inter", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.bgo,.bgnvan{
+    background-color:rgba(255, 247, 237, 1);
+} 
+
+.bgf{
+    background-color: rgba(37, 37, 37, 1);
+}
+
+
+.bgbutton{
+    background: rgba(255, 140, 56, 1);
+}
+.aero,.move{
+    position: relative;
+    bottom: 25px;
+}
+.header-scroll {
+    background-color: #ffffff; /* Background color on scroll */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect on scroll */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .concort{
+    background-color:rgba(255, 247, 237, 1);
+  }
+  .bgbox{
+     background: rgba(255, 204, 141, 1);
+    
+  }
+
+
+
+
+.but{
+  background-color:  rgba(255, 234, 208, 1) ;
+}
+.simple{
+ background: rgba(255, 234, 208, 1);
+  
+}
+.green{
+  background: rgba(17, 94, 89, 1);
+}
+
+/* .aero{
+   background-color: rgb(253, 227, 194);
+} */
+
+.simple:hover{
+  background: rgba(225, 118, 84, 1);
+  color: #ffffff;
+
+}
+.Luxury:hover{
+  background: rgba(22, 22, 22, 1);
+
+  color: #ffffff;
+}
+
+
+
+.Rugged:hover{
+  background: rgba(17, 94, 89, 1);
+
+  color: #ffffff;
+}
+
+.bg-cloth{
+  background: rgba(255, 221, 178, 1);
+
+}
+.bg-cloth2{
+  background: rgb(255, 214, 160);
+
+} 
