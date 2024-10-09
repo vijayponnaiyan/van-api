@@ -98,3 +98,10 @@ body {
   background: rgb(255, 214, 160);
 
 } 
+.bar{
+  border: 8px solid rgba(255, 140, 56, 1)
+}
+.air{
+   position: relative;
+    bottom: 50px;
+}

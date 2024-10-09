@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Priseone from '../Host/Priseone';
 
 export default function Income() {
   return (
@@ -14,7 +14,9 @@ export default function Income() {
         <div className="p-2">
           <p className="text-5xl font-bold">$2,260</p>
         </div>
-     
+           <div className='pt-5'> 
+              <  Priseone/>
+           </div>
       </div>
     </div>
   );
